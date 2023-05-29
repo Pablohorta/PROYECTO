@@ -38,5 +38,5 @@ def crear_cliente (request):
     else:    
         form = forms.clienteForm()
         context = {"form": form}
-        return render (request, "home/crear_autor.html", context)
+        return render (request, "home/crear_cliente.html", context)
 
