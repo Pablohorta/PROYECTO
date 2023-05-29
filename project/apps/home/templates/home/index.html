@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VETERINARIA-AGENDA</title>
-</head>
-<body>
-    <H1 style="color: rgb(4, 4, 60); font-family: Arial, Helvetica, sans-serif;">VETERINARIA - AGENDA</H1>
-    
-</body>
-</html>
+
+{%extends 'home/base.html'%}
+
+{%block contenido%}
+<h2 style="color: rgb(10, 56, 22); font-family: Arial;">MENU PRINCIPAL</h2>
+<nav style="margin: 4px; padding: 10px; background-color: rgb(91, 152, 115);">
+    <a href="url 'http://127.0.0.1:8000/crear-cita'">CREAR CITA</a><br><br>
+    <a href="">CREAR AUTOR</a><br><br>
+    <a href="">CREAR CLIENTE</a><br><br>
+</nav>
+{%endblock contenido%}
